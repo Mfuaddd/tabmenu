@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.navbar {
+  border: 1px solid black;
+  background-color: #FFFFFF;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  padding: 10px 20px;
+}
+.navbar ul li:hover {
+  background-color: #CCCCCC;
+}
+
+.textBox {
+  border: 1px solid black;
+  padding: 10px;
+}
+.textBox ul li {
+  display: none;
+}
+
+.see {
+  display: inline !important;
+  background-color: #CCCCCC;
+}
